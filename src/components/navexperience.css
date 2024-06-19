@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+#experience{
+    background-color:rgba(161, 161, 160, 0.453);
+    height: 100vh;
+    max-width: auto;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: start;
+    padding-top: 35vh;
+    padding-left: 80px;
+    
+    
+    /* box-shadow: inset 0 0 0  2000px rgba(137, 136, 136, 0.268);     */
+}
+
+#experienceList{ 
+    
+    flex-wrap: wrap;
+    width: 700px;
+    height: 200px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+#experience>h4{
+    font-family: "Rajdhani",sans-serif ;
+    font-size: 40px;
+}
+
+#infy{
+    border: 2px solid black;
+    width:200px;
+    height:80px;
+    max-width:200px;
+    max-height:80px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    font-family: "Cabin",serif;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 550ms ease-in-out;
+}
+#free{
+    border: 2px solid black;
+    width:350px;
+    height:100px;
+    max-width:350px;
+    max-height:100px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 9px;
+    font-family: "Cabin",serif;
+    font-size: 24px;  
+    cursor: pointer;
+    transition: transform 550ms ease-in-out;  
+}
+#infy:hover{
+    transform : scale(1.09);
+    background-color:black;
+    color: bisque;
+    padding:4px;
+    border-radius: 5px;
+    font-family: "Cabin",serif;
+}
+#free:hover{
+    transform : scale(1.09);
+    background-color:black;
+    color: bisque;
+    padding:4px;
+    border-radius: 5px;
+    font-family: "Cabin",serif;
+}

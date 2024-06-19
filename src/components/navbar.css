@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+#list{
+    border-bottom: 1px  solid rgb(214, 206, 206);
+    height:50px;
+    padding-top: 0px;
+    color: bisque;
+    background-color: black;
+    align-items: center;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    overflow-wrap:normal ;
+    }
+.hi{
+    cursor: pointer;
+    transition: transform 550ms ease-in-out;
+    font-family: "Cabin",serif;
+}
+.hi:hover{
+    transform : scale(1.09);
+    background-color: bisque;
+    color: black;
+    padding:4px;
+    border-radius: 5px;
+    font-family: "Cabin",serif;
+}
+#navHi{
+    order: -1;
+    padding-right: 500px;
+    font-family:"Oswald",sans-serif ;
+    font-weight: bolder;
+}
+

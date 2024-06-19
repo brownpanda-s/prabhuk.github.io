@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+#resumepage{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    background-color: rgba(184, 184, 180, 0.253);
+    align-items: center;
+    justify-content: center;
+}
+#downloadbutton{
+    background-color: black;
+    color:bisque;
+    padding:10px 20px;
+    font-size: 24PX;
+    font-family: "Rajdhani",sans-serif ;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}

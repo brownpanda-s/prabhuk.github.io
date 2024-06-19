@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+#homepg{
+    background: url("/Users/prabhukrishna/Documents/wcw/portfolio/src/assets/Screenshot 2024-06-16 at 4.45.28 PM.png");
+    height:100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment:initial;
+    display:flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+#homeContent{
+    padding-top: 40vh;
+    padding-left: 80px;
+    text-align: justify;
+    font-size: 40px;
+    font-family: "Rajdhani",sans-serif ;
+    font-weight: bolder;
+    color:black
+}
