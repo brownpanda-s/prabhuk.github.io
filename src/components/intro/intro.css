@@ -1,0 +1,22 @@
+.intro {
+  background-color: white;
+  display: flex;
+}
+.intro .left {
+  flex: 0.5;
+  overflow: hidden;
+}
+.intro .left .imgContainer {
+  width: 700px;
+  height: 700px;
+  border-radius: 65%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.intro .left .imgContainer img {
+  width: 90%;
+}
+.intro .right {
+  flex: 0.5;
+}/*# sourceMappingURL=intro.css.map */
