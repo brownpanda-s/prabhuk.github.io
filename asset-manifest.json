@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/prabhuk.github.io/static/css/main.acd7803a.css",
+    "main.js": "/prabhuk.github.io/static/js/main.a9423838.js",
+    "index.html": "/prabhuk.github.io/index.html",
+    "main.acd7803a.css.map": "/prabhuk.github.io/static/css/main.acd7803a.css.map",
+    "main.a9423838.js.map": "/prabhuk.github.io/static/js/main.a9423838.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acd7803a.css",
+    "static/js/main.a9423838.js"
+  ]
+}
